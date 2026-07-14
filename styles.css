@@ -220,6 +220,7 @@ h2 { margin-bottom: 0; font-size: clamp(38px, 5.2vw, 78px); line-height: 1.08; f
 .project-index { padding-bottom: 150px; }
 .catalog-image { margin-bottom: 24px; }
 .catalog-image img { width: 100%; }
+.catalog-image figcaption { justify-content: flex-end; }
 .project-jump { display: grid; grid-template-columns: repeat(12, 1fr); gap: 12px; }
 .project-jump a {
   position: relative; overflow: hidden; min-height: 230px; padding: 22px; border: 1px solid var(--line);
